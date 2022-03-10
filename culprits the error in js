@@ -1,0 +1,194 @@
+culprits the error in js
+var numsArr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+var new_string = "";
+ 
+for (var i = 0; i <=numsArr.length; i++) {
+ new_string += numsArr[i] 
+}
+console.log(new_string);
+o/p
+1234567891011
+---------------------------------------
+var numsArr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+var new_string = "";
+ 
+for (var i =0; i <numsArr.length; i++)
+if(i==numsArr.length-1){
+ new_string += numsArr[i];
+}
+else
+{
+ new_string += numsArr[i] +","
+}console.log(new_string);
+Output:
+1,2,3,4,5,6,7,8,9,10,11
+-------------------------------------
+a=[1,2,3,4,5,6,7,8,9,10,11]
+var new_string ="";
+ 
+for (var i=a.length-1; i >=0; i-- ) 
+if(i==0){
+ new_string +=a[i]
+}
+else{
+ new_string +=a[i] + " " 
+}
+console.log(new_string);
+
+
+Output:
+11 10 9 8 7 6 5 4 3 2 1
+---------------------------------
+var numsArr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+for (var i = 0; i <numsArr.length; i++) {
+ if(numsArr[i]%2 == 0 )
+ {
+ numsArr[i] = "even"
+ }
+}
+console.log(numsArr);
+ootput:
+[ 1, 'even', 3, 'even', 5, 'even', 7, 'even', 9, 'even', 11 ]
+--------------------------------------
+var numsArr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+for (var i=0; i<numsArr.length; i++) {
+ if(numsArr[i]%2!== 0 )
+ {
+ numsArr[i]="even"
+ }
+}
+console.log(numsArr);
+Output:
+[ 'even', 2, 'even', 4, 'even', 6, 'even', 8, 'even', 10, 'even' ]
+---------------------------------------
+var a = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+sum=0
+for (var i = 0; i <a.length; i++) 
+{
+ sum+=a[i]
+}
+console.log(sum);
+output:
+66
+--------------------------------------
+var numsArr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+sum=0;
+for (var i=0; i<numsArr.length; i++) {
+ if(numsArr[i]%2==0)
+ {
+ sum+=numsArr[i];
+ }
+}
+console.log(sum);
+Output:
+30
+--------------------------------------
+var numsArr = [ 1, 2, 3,4,5,6,7,8,9,10,11];
+sum=100;
+for (var i=0; i<numsArr.length; i++) 
+if(numsArr[i]%2==0)
+ {
+ sum+=numsArr[i];
+ }
+ sum1=sum;
+ sum=0;
+for (var i=0; i<numsArr.length; i++)
+if(numsArr[i]%2!==0)
+ {
+ sum+=numsArr[i];
+ }
+ sum2=sum;
+ 
+console.log(sum1-sum2);
+output:
+94
+-------------------------------------
+var a = [[5,5,8,9,7],[6]];
+var all="";
+for(let i=0; i<a.length; i++)
+{
+  array=a[i];
+  
+ for(var j=0; j<1; j++)
+    all +=array[j]
+   
+}
+console.log(all);
+output:
+558976
+--------------------------------
+var a = [[1, 2, 3, 4, 5],[ 6, 7, 8, 9, 10, 11],[4,5,6,7,8,9,10]];
+var all="";
+for (let i=0;i<a.length;i++) 
+{
+ var joy=a[i];
+ for(let j=0;j<joy.length;j++)
+         all=all+joy[j];
+}
+console.log(all)
+//o/p
+//115
+//----------------------------------
+var a = [[1, 2, 3, 4, 5],[ 6, 7, 8, 9, 10, 11],[4,5,6,7,8,9,10]];
+var all="";
+for (let i=0;i<a.length;i++) 
+{
+ var joy=a[i];
+ for(let j=0;j<joy.length;j++)
+ if(joy[j]%2!==0)
+         {
+         joy[j]="even"
+         }
+         console.log(joy)
+        }
+//o/p
+//[ 'even', 2, 'even', 4, 'even' ]
+//[ 6, 'even', 8, 'even', 10, 'even' ]
+//[ 4, 'even', 6, 'even', 8, 'even', 10 ]
+//---------------------------------
+var a = [[1, 2, 3, 4, 5],[ 6, 7, 8, 9, 10, 11],[4,5,6,7,8,9,10]];
+var all="";
+for (let i=a.length-1;i>=0;i--) 
+{
+ var joy=a[i];
+ for(let j=joy.length-1;j>=0;j--)
+         all=all+joy[j];
+}
+console.log(all)
+//o/p
+//109876541110987654321
+-----------------------------------
+var a = [[1, 2],[ 6, 7],[9,10]];
+var all=0;
+var odd=0;
+for (let i=0;i<a.length;i++) 
+{
+ var joy=a[i];
+ for(let j=0;j<joy.length;j++)
+ if(joy[j]%2==0)
+ {
+ all=all+joy[j]
+ }
+ else{
+ odd=odd+joy[j];
+ }
+}
+console.log(all)
+console.log(odd)
+//o/p
+//18
+//17
+
+
+
+
+
+
+
+
+
+
+
+
+
+

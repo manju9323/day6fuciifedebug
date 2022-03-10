@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <script src="js.js"></script>
+    </head>
+<body>
+</body>
+</html>
+<!DOCTYPE html>
+----------------------------------
+<html>
+    <head>
+    <script>
+        </script>
+        </head>
+<body>
+ Whats the error in this ?
+</body>
+</html>
+------------------------------------
+<!DOCTYPE html>
+<html>
+    <head> <script src="js.js"></script></head>
+<body> 
+    
+</body>
+</html>
+------------------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+    <script src="js.js"></script>
+    </head>>
+<body>
+ 545
+</body>
+</html>
+let fname=10.5; 
+fname= "Guvi";
+lname = "geek"
+let name = fname+lname;
+alert( `hello ${name}`);
+----------------------------------
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="js.js"></script>
+</body>
+</html>
+let a = prompt();
+let b = prompt();
+alert(Number(a)+Number(b));
+------------------------------------
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="js.js"></script>
+ 456
+</body>
+</html>
+a=2;
+b=1;
+console.log(a+b);
+val=(a>b?a:b);
+if(val==b) {
+  prompt("Code is Blasted")
+}
+else
+{
+  prompt("Diffused") 
+}
+--------------------------------------
+
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="js.js"></script>
+ 456
+</body>
+</html>
+let a = prompt("Enter a number");
+//Don't modify any code below this
+if (a) {
+ console.log( 'OMG it works for any number inc 0' );
+}
+else
+{
+ console.log( "Success" );
+}
+----------------------------------
+<!DOCTYPE html>
+<html>
+    <head> <script src="js.js"></script>
+    </head> 
+<body>
+</body>
+</html>
+let value = prompt("How many runs you scored in this ball");
+if (Number(value)=== 4) {
+      console.log("You hit a Four");
+} else if (Number(value) === 6) {
+      console.log("You hit a Six");
+} else {
+      console.log("I couldn't figure out");
+}
+--------------------------------------
+<!DOCTYPE html>
+<html> 
+    <head> <script src="js.js"></script>
+    </head> 
+<body>
+</body>
+</html>
+let login = 'Employee';
+let message = (login == 'Employee') ?"welcome" :
+  (login == 'Director') ? 'Greetings' :
+  (login == '') ? 'No login' :
+  '';
+console.log(message);
+--------------------------------------
+<!DOCTYPE html>
+<html>
+    <head> <script src="js.js"></script>
+    </head> 
+<body> 
+</body>
+</html>
+
+let message=null;
+if (message==2||message==null||message==undefined)
+{
+  console.log("welcome boss");
+}
+else
+{
+    console.log("no entry");
+}
+--------------------------------------
+<!DOCTYPE html>
+<html>
+    <head> <script src="js.js"></script>
+    </head> 
+<body> 
+</body>
+</html>
+if (mor)
+{
+  message = "Go away";
+}
+else
+{
+ message = "welcome";
+}
+  console.log(message);
+----------------------------------
+<!DOCTYPE html>
+<html>
+    <head> <script src="js.js"></script>
+    </head> 
+<body> 
+</body>
+</html>
+let message;
+let lock=" ";
+//Dont change any code below this
+if (lock && " " || undefined )
+{
+  message = "Go away";
+}
+else
+{
+ message = "welcome";
+}
+console.log(message);
+--------------------------------------
+<!DOCTYPE html>
+<html>
+    <head> <script src="js.js"></script>
+    </head> 
+<body> 
+</body>
+</html>
+let i =4;
+while (i>1) {
+  console.log(--i)
+}
+----------------------------------
+<!DOCTYPE html>
+<html>
+    <head> <script src="js.js"></script>
+    </head> 
+<body> 
+</body>
+</html>
+temp="";
+num=15;
+while (num<20) 
+{
+console.log(temp+=++num+",")
+}
+-------------------------------------
+<!DOCTYPE html>
+<html>
+    <head> <script src="js.js"></script>
+    </head> 
+<body> 
+</body>
+</html>
+for (let i= 2; i<= 20; i=i+2) {
+  console.log(i)
+}
+-------------------------------------
+<!DOCTYPE html>
+<html>
+    <head> <script src="js.js"></script>
+    </head> 
+<body> 
+</body>
+</html>
+let gifts = ["teddy bear", "drone", "doll"];
+for (let i = 0; i<gifts.length; i++) {
+  console.log(`Wrapped ${gifts[i]} and added a bow!`);
+}
+-------------------------------
+let countdown = 100;
+while (countdown > 1) {
+  countdown--;
+  if(countdown == 0)
+  {
+   message="bomb triggered";
+  }
+  else{
+    message="bomb dispossed";
+  }
+  console.log(message)
+}
+-------------------------------var lemein = "55";
+var lemeout ="";
+var msg = "";
+
+if (lemein) {
+ msg += "hi";
+ }
+ if (lemeout) {
+ msg += 'Hello';
+}
+console.log(msg);
+-------------------------------
+var a = [[1, 2, 3, 4, 5],[ 6, 7, 8, 9, 10, 11],[4,5,6,7,8,9,10]];
+var all="";
+for (let i=0;i<a.length;i++) 
+{
+ var joy=a[i];
+ for(let j=0;j<joy.length;j++)
+         all=all+joy[j];
+}
+console.log(all)
